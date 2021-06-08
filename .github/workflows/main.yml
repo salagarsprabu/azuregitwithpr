@@ -2,8 +2,9 @@ name: Sync issue to Azure DevOps work item
 
 on:
   pull_request:
-    types:
-      [opened, edited, deleted, closed, reopened, labeled, unlabeled, assigned]
+    types: [opened, edited, closed]
+    branches:
+      - master
 
 jobs:
   alert:
