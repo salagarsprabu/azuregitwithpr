@@ -1,4 +1,4 @@
-name: Sync Pull Request to Azure Boards
+name: Sync Pull Request to Azure Boardss
 
 on:
   pull_request:
