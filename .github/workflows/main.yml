@@ -14,7 +14,7 @@ jobs:
       env:
         ado_token: '${{ secrets.ADO_PERSONAL_ACCESS_TOKEN }}'   
         github_token: '${{ secrets.GH_TOKEN }}'    
-        ado_organization: 'privatepreview'
+        ado_organization: 'SenthilAlagarsamy'
         ado_project: 'Agile'
         ado_wit: 'Pull Request' 
         ado_new_state: 'New'
